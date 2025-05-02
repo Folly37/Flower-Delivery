@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lover Flower</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" as="script">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/media.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script defer src="js/scroll.js"></script>
+        <script defer src="js/slider.js"></script>
+    </head>
+
+<body class="page-loading">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href=""><img class="logo__img" src="images/icons/logo.png" alt="логотип"></a>
+                <ul class="menu">
+                    <li class="item"><a class="link" href="#">Каталог</a></li>
+                    <li class="item"><a class="link" href="#">Доставка и оплата</a></li>
+                    <li class="item"><a class="link" href="#">О нас</a></li>
+                    <li class="item"><a class="link" href="#">Контакты</a></li>
+                    <li class="item"><a class="link" href="#">FAQ</a></li>
+                </ul>
+                <a href=""><img class="cart__img" src="images/icons/cart.png" alt="корзина"></a>
+            </nav>
+            <img class="header__background" src="images/header/Hero2.png" alt="">
+                <div class="header__content">
+                    <h1 class="header__title">
+                        <span class="header__back__title" data-aos="fade-down" data-aos-delay="300">LOVER</span><br>
+                        <span class="header__front__title" data-aos="fade-down" data-aos-delay="500">FLOWER</span>
+                    </h1>
+                    <p class="header__text" data-aos="fade-up" data-aos-delay="800">Создаём для тех, кто ценит свежесть и изящество цветка</p>
+                    <button class="header__button" data-aos="fade-up" data-aos-delay="900">смотреть каталог</button>
+                </div>
+                <img class="header__blackout" src="images/header/Hero3.png" alt="">
+            </div>
+    </header>
+
+    <section class="catalog">
+        <div class="container">
+            <h2 class="title__catalog" data-aos="fade-up">Каталог</h2>
+            <div class="block__catalog">
+                <div class="catalog__txt__block" data-aos="fade-right">
+                <p class="catalog__txt">У нас самый большой выбор цветов, букетов, открыток и подарков. 
+                    Мы всегда поможем вам подобрать букет для вашего события, наш менеджер вас проконсультирует и поможет определиться с выбором</p>
+                    <p>Ознакомьтесь с нашими разделами каталога</p>
+                </div>
+                <div class="item__catalog catalog-bouquets" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="title3__catalog">готовые букеты <br> из сухоцветов</h3>
+                    <ul class="list__block">
+                        <li>букеты</li>
+                        <li>Для интерьера</li>
+                        <li>Композиции</li>
+                    </ul>
+                    <a class="link__catalog" href="#">смотреть каталог</a>
+                </div>
+                <div class="item__catalog catalog-flowers" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="title3__catalog">Цветы</h3>
+                    <ul class="list__block">
+                        <li>Сборные букеты</li>
+                        <li>Монобукеты</li>
+                        <li>Композиции из цветов</li>
+                        <li>розы</li>
+                        <li>свадебные</li>
+                    </ul>
+                    <a class="link__catalog" href="#">смотреть каталог</a>
+                </div>
+                <div class="item__catalog catalog-gifts" data-aos="fade-up" data-aos-delay="600">
+                    <h3 class="title3__catalog">Дополнительно</h3>
+                    <ul class="list__block">
+                        <li>шары</li>
+                        <li>игрушки</li>
+                        <li>открытки</li>
+                        <li>упаковка</li>
+                    </ul>
+                    <a class="link__catalog" href="#">смотреть каталог</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular__bouquets">
+        <div class="back__img__block"><img class="back__img__popular" src="images/popular/background.png" alt=""></div>
+        <div class="container">
+            <div class="title__popular"><h2 class="title2__popular">Популярные <span class="title__bouquets">букеты</span></h2>
+                <p class="txt2__popular">Самые любимые композиции наших клиентов</p>
+            </div>
+            <div class="popular__slider owl-carousel">
+                <div class="item__popular">
+                    <img src="images/popular/1.png" alt="букет">
+                    <h3 class="title3__popular">лучший день</h3>
+                    <p class="txt__popular">167.000 ₽</p>
+                    <button class="btn__popular">В корзину</button>
+                </div>
+                <div class="item__popular">
+                    <img src="images/popular/2.png" alt="букет">
+                    <h3 class="title3__popular">лучший день</h3>
+                    <p class="txt__popular">167.000 ₽</p>
+                    <button class="btn__popular">В корзину</button>
+                </div>
+                <div class="item__popular">
+                    <img src="images/popular/3.png" alt="букет">
+                    <h3 class="title3__popular">лучший день</h3>
+                    <p class="txt__popular">167.000 ₽</p>
+                    <button class="btn__popular">В корзину</button>
+                </div>
+                <div class="item__popular">
+                    <img src="images/popular/1.png" alt="букет">
+                    <h3 class="title3__popular">лучший день</h3>
+                    <p class="txt__popular">167.000 ₽</p>
+                    <button class="btn__popular">В корзину</button>
+                </div>
+                <div class="item__popular">
+                    <img src="images/popular/2.png" alt="букет">
+                    <h3 class="title3__popular">лучший день</h3>
+                    <p class="txt__popular">167.000 ₽</p>
+                    <button class="btn__popular">В корзину</button>
+                </div>
+                <div class="item__popular">
+                    <img src="images/popular/3.png" alt="букет">
+                    <h3 class="title3__popular">лучший день</h3>
+                    <p class="txt__popular">167.000 ₽</p>
+                    <button class="btn__popular">В корзину</button>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="back__btn__slider owl-prev"><img src="images/icons/backArrow.png" alt="назад"></button>
+                <button class="front__btn__slider owl-next"><img src="images/icons/frontArrow.png" alt="вперед"></button>
+            </div>
+            <a class="link__catalog__popular" href="#">смотреть весь каталог <img src="images/icons/pinkArrow.png" alt="стрелка"></a>
+        </div>
+    </section>
+
+    <section class="step">
+        <div class="step__img__block"><img class="step__back__img" src="images/backFlowers/1.png" alt="цветок"></div>
+            <div class="container">
+                <h2 class="step__title2">Как сделать <br> заказ</h2>
+                <div class="step__block">
+                    <div class="step__block__left">
+                        <div class="step__item">
+                            <h3 class="step__title3">1 шаг</h3>
+                            <p class="step__txt">Выберите какие цветы или подарки вы хотите купить</p>
+                        </div>
+                        <div class="step__item">
+                            <h3 class="step__title3">2 шаг</h3>
+                            <p class="step__txt">Оформите заказ, и мы отправим вам подтверждение на электронную почту, а так же менеджер свяжется с вами по телефону или в WhatsApp</p>
+                        </div>
+                        <div class="step__item">
+                            <h3 class="step__title3">3 шаг</h3>
+                            <p class="step__txt">Наши флористы бережно подойдут к созданию букета цветов в самом начале дня или накануне</p>
+                        </div>
+                    </div>
+                    <div class="step__block__right">
+                        <div class="step__item">
+                            <h3 class="step__title3">4 шаг</h3>
+                            <p class="step__txt">Один из наших курьеров или партнёров доставит ваш заказ по указанному адресу. Мы отправим вам сообщение в Whats App как только заказ будет доставлен</p>
+                        </div>
+                        <div class="step__item">
+                            <h3 class="step__title3">5 шаг</h3>
+                            <p class="step__txt">Наслаждайтесь цветами , если вы заказали их для дома или любовью, которой поделились, если вы заказали для друга</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="special">
+        <div class="container">
+            <h2 class="special__title">Особенный <span class="special__occasion">повод?</span></h2>
+            <div class="special__block">
+                <div class="special__left__block">
+                    <div class="top-line"></div>
+                    <p class="special__txt">Мы готовы прийти на помощь и собрать уникальный букет, на любой вкус, бюджет и для любого события по вашему индивидуальному заказу.</p>
+                    <ul class="special__list">
+                        <li class="special__item">учтем даже самые изысканные пожелания;</li>
+                        <li class="special__item">подберем свежайшие цветы и сделаем уникальный букет или композицию;</li>
+                        <li class="special__item">оплатить можно при получении или онлайн на сайте</li>
+                    </ul>
+                    <button class="special__btn">собрать индивидуальный букет</button>
+                </div>
+                <div class="special__right__block">
+                    <img src="images/special/2.png" width="255px" height="292px" alt="подарки">
+                    <img src="images/special/3.png" width="160px" height="292px" alt="подарки">
+                    <img src="images/special/4.png" width="255px" height="292px" alt="подарки">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="questions">
+        <div class="questions__img__block">
+        <img class="questions__back__img" src="images/backFlowers/2.png" alt="цветок">
+        </div>
+        <div class="container">
+            <div class="questions__block">
+            <div class="questions__left">
+                <h2 class="questions__title">Остались<br> вопросы?</h2>
+                <div class="label__img__block"><img class="label__img" src="images/icons/questions_.png" width="305px" alt="подпись"></div>
+            </div>
+            <div class="questions__right">
+                <p class="questions__right__txt">Отправьте ваш вопрос, заказ, предложение или жалобу через форму обратной связи, и наш специалист свяжется с вами в течение 15 минут.</p>
+                <form class="contact__form" action="">
+                <input class="contact__input" type="text" name="name" placeholder="Ваше имя">
+                <input class="contact__input" type="text" name="phone" placeholder="Телефон">
+                <textarea class="contact__textarea" name="text" placeholder="Ваше сообщение" style="resize: none;"></textarea>
+                    <div class="form__footer">
+                    <button class="contact__btn">Отправить</button>
+                    <p class="form__agreement">Нажимая на кнопку «Отправить», я даю свое согласие на обработку персональных данных, в соответствии с <a class="link__privacy" href="#"> Политикой конфиденциальности</a></p>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
